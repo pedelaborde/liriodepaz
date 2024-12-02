@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.header {
+    position: relative;
+    background-color: black;
+    height: 87vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.header .container {
+    position: relative;
+    z-index: 2;
+}
+
+.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.sinsubrayado {
+    text-decoration: none;
+}
+
+.antilink {
+    color: #222;
+    text-decoration: none;
+}
+
+.fondoverde {
+    background-color: #8c9b7a !important;
+}
+
+
+.subtitle {
+    color: #4A6334;
+}
+
+
+.imperial {
+    font-family: 'Imperial Script', cursive;
+}
+
+.banner {
+    color: #4E5E3E
+}
+
+#contacto {
+    color: #4E5E3E
+}
+
+.navbar {
+    background-color: #f0f0f0;
+}
+
+.white {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8FAC72;
+}
+
+.no-border {
+    border: none;
+}
+
+.border {
+    border: 1px solid black
+}
+
+.card {
+    border: none
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#servicios {
+    background: linear-gradient(to bottom, #BFD3AC, #4A6334);
+}
+
+.trasp {
+    background-color: transparent;
+}
+
+.green {
+    background-color: #BFD3AC
+}
+
+.bg-green {
+    background-color: #BFD3AC;
+}
+
+
+
+.badge a {
+    color: white;
+    text-decoration: none;
+}
+
+.badge {
+    background-color: #4A6334;
+}
+
+#servicios .card {
+    background-color: transparent;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.videosmall {
+    display: none
+}
+
+#ubicacion {
+    background-color: #BFD3AC;
+}
+
+#ubicacion .list-group-item {
+    background-color: #BFD3AC;
+}
+
+.navbar-collapse {
+    flex-grow: inherit;
+    margin-right: 3em;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    color: white
+}
+
+
+
+#tel-fixed {
+    background-color: #BFD3AC;
+    color: white
+}
+
+img {
+    max-width: 100%;
+}
+
+#servicios .card {
+    margin: auto;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+footer {
+    background-color: #8FAC72;
+}
+
+.dark-green {
+    color: #8FAC72;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+#reclamos {
+    background-color: #728f55;
+    padding: 1.5rem 4rem;
+}
+
+#reclamos .btn-primary {
+    background-color: #426324;
+    border-color: none;
+}
+
+#reclamos a {
+    color: #BFD3AC;
+    border-color: none;
+}
+
+
+#reclamos .btn-primary:hover {
+    background-color: #6ca339;
+    border-color: none;
+}
+
+@media (pointer: coarse) and (hover: none) {
+    header video {
+        display: none;
+    }
+}
+
+@media (max-width: 772px) {
+    .videosmall {
+        display: inherit
+    }
+
+    .videobig {
+        display: none;
+    }
+
+    #servicios {
+        width: 100%;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    #servicios .card {
+        width: 300px;
+        margin-bottom: 1.5em;
+        padding: 0px;
+        margin: auto
+    }
+
+    .p-5 {
+        padding: 1.5rem !important;
+    }
+
+    .float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+    }
+
+    .my-float {
+        margin-top: 16px;
+    }
+}
