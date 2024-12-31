@@ -17,12 +17,12 @@ body {
 .navbar-custom,
 .navbar-custom .nav-link,
 .navbar-custom .navbar-brand {
-    background-color: #fff;
-    color: #45523e;
+    background-color: #faf0e6;
+    color: #432b2a;
 }
 
 footer, #middle {
-    background-color: #45523e;
+    background-color: #432b2a;
     color: #FAF0E6;
 }
 
@@ -32,7 +32,7 @@ footer, #middle {
 
 .fixed-bar {
     color: #FAF0E6;
-    background-color: #8FAC72;
+    background-color: #904750;
     padding: 10px 0;
     text-align: center;
     position: fixed;
@@ -93,18 +93,18 @@ header {
 }
 
 .hero-section .card {
-    background-color: #7b7b7b80;
+    background-color: #bebebe80;
     color: #FAF0E6;
 }
 
 #mapas .card {
     background-color: #FAF0E6;
-    color: #45523e;
+    color: #432b2a;
     border: none;
 }
 
 .verdecito{
-    color: #5d7d4c;
+    color: #6a2f2d;
 }
 
 .card .antilink,
@@ -114,7 +114,7 @@ header {
 }
 
 .btn {
-    background-color: #8FAC72;
+    background-color: #904750;
     /* verde medio intenso para botón */
     border: none;
 }
