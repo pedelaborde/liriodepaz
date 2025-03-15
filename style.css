@@ -39,16 +39,16 @@ footer,
 }
 
 .pildora{
-    border-radius: 5px;
-    background-color: #989898;
-    padding: 8px;
-    color: black;
+    /* border-radius: 5px;
+    background-color: #989898; 
+    padding: 8px; */
+    font-family: 'Arial';
 }
 
 .fixed-bar {
     color: #FAF0E6;
     background-color: #904750;
-    padding: 15px 0;
+    padding: 18px 0;
     text-align: center;
     position: fixed;
     top: 95px;
@@ -62,7 +62,7 @@ footer,
 :root {
     --navbar-height: 80px;
     /* Adjust based on the height of your navbar */
-    --fixed-bar-height: 50px;
+    --fixed-bar-height: 40px;
     /* Adjust based on the height of your fixed bar */
 }
 
